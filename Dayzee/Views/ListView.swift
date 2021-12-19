@@ -34,7 +34,7 @@ struct ListView: View {
                         print("About button pressed")
                     }.foregroundColor(Color.black)
                     
-                    
+                        
                     Button(action: {
                         print("Right button pressed")
                     }) {

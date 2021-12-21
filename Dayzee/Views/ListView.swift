@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct ListView: View {
+    
     var body: some View {
+        
         NavigationView {
             List {
                 Text("Text")
@@ -22,28 +24,26 @@ struct ListView: View {
             }
             
             .navigationBarItems(leading:
-                HStack(spacing: 118) {
-                    Button(action: {
-                        print("Left button pressed")
-                    }) {
-                        Image(systemName: "arrowtriangle.left")
-                            .foregroundColor(Color.purple)
-                    }
-                    
-                    Button("Today") {
-                        print("About button pressed")
-                    }.foregroundColor(Color.black)
-                    
-                        
-                    Button(action: {
-                        print("Right button pressed")
-                    }) {
-                        Image(systemName: "arrowtriangle.right")
-                            .foregroundColor(Color.purple)
-                    }
-                }
+                                    
+                                    NavigationLink(destination: YesterdayView()) {
+                Image(systemName: "arrowtriangle.left")
+                    .foregroundColor(Color.purple)
+            }
+                                
+                                
+                                    .navigationBarTitle("Today", displayMode: .inline),
+                                
+                                trailing:
+                                    NavigationLink(destination: TomorrowView()) {
+                Image(systemName: "arrowtriangle.right")
+                    .foregroundColor(Color.purple)
+            }
+
             )
+
+            .navigationBarBackButtonHidden(true)
         }
+        .navigationBarHidden(true)
     }
 }
 

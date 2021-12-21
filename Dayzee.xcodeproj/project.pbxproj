@@ -11,6 +11,8 @@
 		3005C572276F774C00F3E934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3005C571276F774C00F3E934 /* Assets.xcassets */; };
 		3005C575276F774C00F3E934 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3005C574276F774C00F3E934 /* Preview Assets.xcassets */; };
 		3005C57D276F90A100F3E934 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3005C57C276F90A100F3E934 /* ListView.swift */; };
+		304C0DF72771F32E008CDE62 /* YesterdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C0DF62771F32E008CDE62 /* YesterdayView.swift */; };
+		304C0DFB2771FBFC008CDE62 /* TomorrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304C0DFA2771FBFC008CDE62 /* TomorrowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3005C571276F774C00F3E934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3005C574276F774C00F3E934 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3005C57C276F90A100F3E934 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		304C0DF62771F32E008CDE62 /* YesterdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesterdayView.swift; sourceTree = "<group>"; };
+		304C0DFA2771FBFC008CDE62 /* TomorrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomorrowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				3005C57C276F90A100F3E934 /* ListView.swift */,
+				304C0DF62771F32E008CDE62 /* YesterdayView.swift */,
+				304C0DFA2771FBFC008CDE62 /* TomorrowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3005C56E276F774900F3E934 /* DayzeeApp.swift in Sources */,
+				304C0DFB2771FBFC008CDE62 /* TomorrowView.swift in Sources */,
 				3005C57D276F90A100F3E934 /* ListView.swift in Sources */,
+				304C0DF72771F32E008CDE62 /* YesterdayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
